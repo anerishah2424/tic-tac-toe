@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#fcd9ff;
+}
+
+#game {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: rgb(11, 225, 86);
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border: 3px solid rgb(205, 221, 25);
+    border-radius: 20px;
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: rgb(180, 180, 180);
+    cursor: not-allowed;
+}
+
+#winner {
+    font-size: 30px;
+    background-color:#FFF455;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#output {
+    font-size: 30px;
+    text-align: center;
+}
+#new{
+    font-size: 20px;
+    background-color: #FFF455;
+    border-radius: 20px;
+    margin-top: 20px;
+    border-color: aquamarine;
+
+}
+
